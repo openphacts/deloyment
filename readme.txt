@@ -23,7 +23,7 @@ If any error are discovered during installation the can be fixed directly in the
 
 Once the version is successfuly running on a external site the version folder should be FROZEN and never CHANGED.
 
-Create a nee folder for the next version to install.
+Create a new folder for the next version to install.
 
 
 
