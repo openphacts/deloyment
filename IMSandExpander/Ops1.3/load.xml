@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<loadSteps>
+    <clearAll/>
+
+    <void>http://openphacts.cs.man.ac.uk/ims/linkset/version1.3/HGNC/hgncVoid.ttl</void>
+    <directory>http://openphacts.cs.man.ac.uk/ims/linkset/version1.3/HGNC/</directory>
+
+    <void>http://openphacts.cs.man.ac.uk/ims/linkset/version1.3/ConceptWiki/CW-Void_v11.ttl</void>
+    <directory>http://openphacts.cs.man.ac.uk/ims/linkset/version1.3/ConceptWiki/</directory>
+
+	<linkset>http://openphacts.cs.man.ac.uk/ims/linkset/version1.3/aers_drugbank_linkset.ttl</linkset>
+	
+    <void>http://openphacts.cs.man.ac.uk/ims/linkset/version1.3/CRS/void_2013-09-04.ttl</void>
+    <directory>http://openphacts.cs.man.ac.uk/ims/linkset/version1.3/CRS</directory>
+
+
+    <void>http://openphacts.cs.man.ac.uk/ims/linkset/version1.3/ChEMBL16.2/void.ttl</void>
+    <directory>http://openphacts.cs.man.ac.uk/ims/linkset/version1.3/ChEMBL16.2/</directory>
+
+    <void>http://openphacts.cs.man.ac.uk/ims/linkset/version1.3/ensembl/Ensembl_71.ttl</void>
+    <directory>http://openphacts.cs.man.ac.uk/ims/linkset/version1.3/ensembl/</directory>
+	
+    #void in the linksets 
+    <directory>http://openphacts.cs.man.ac.uk/ims/linkset/version1.3/uniprot/</directory>
+
+    <void>http://openphacts.cs.man.ac.uk/ims/linkset/version1.3/HMDB/hmdb_ls_cas.void.ttl</void>
+    <linkset>http://openphacts.cs.man.ac.uk/ims/linkset/version1.3/HMDB/hmdb_ls_cas.ttl</linkset> 
+    <void>http://openphacts.cs.man.ac.uk/ims/linkset/version1.3/HMDB/hmdb_ls_kegg.void.ttl</void>
+    <linkset>http://openphacts.cs.man.ac.uk/ims/linkset/version1.3/HMDB/hmdb_ls_kegg.ttl</linkset> 
+    <void>http://openphacts.cs.man.ac.uk/ims/linkset/version1.3/HMDB/hmdb_ls_pubchem.void.ttl</void>
+    <linkset>http://openphacts.cs.man.ac.uk/ims/linkset/version1.3/7/HMDB/hmdb_ls_pubchem.ttl</linkset> 
+    <void>http://openphacts.cs.man.ac.uk/ims/linkset/version1.3/HMDB/hmdb_ls_wp.void.ttl</void>
+    <linkset>http://openphacts.cs.man.ac.uk/ims/linkset/version1.3/HMDB/hmdb_ls_wp.ttl</linkset> 
+
+    <void>http://openphacts.cs.man.ac.uk/ims/linkset/version1.3/wikipathways/wikipathways_void.ttl</void>
+    <void>http://openphacts.cs.man.ac.uk/ims/linkset/version1.3/wikipathways/wp-po_Void.ttl</void>
+    <linkset>http://openphacts.cs.man.ac.uk/linkset/version1.3/wikipathways/wp-po_Linkset.ttl</linkset>
+    <doTransitive/>
+</loadSteps>
