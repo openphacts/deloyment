@@ -27,12 +27,8 @@ And place in a local folder
 Then set the #PathToFile properties an explained in IMS_README.md
 You will still need access to http://openphacts.cs.man.ac.uk/ims/linkset/version1.3 to read directory information.
 
-Note: Oct 8. A bug was discovered in the load.xml file on the server.
-As I currently do not have access to fix that please run with provided load.xml file.
-This message will be removed as soon as I can push the fix to the server.
-
 Run:
-java -jar loader.jar load.xml
+java -jar loader.jar 
 
 ====
 HACK
