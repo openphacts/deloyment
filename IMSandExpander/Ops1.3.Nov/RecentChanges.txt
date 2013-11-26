@@ -1,0 +1,15 @@
+Changes Since orginal 1.3 
+
+1. Config directory renamed to: conf/BridgeDb
+2. Config system variable renamed to: BRIDGEDB_CONFIG
+3. New war needed
+4. New sql dump / load required
+
+
+Dump http://openphacts.cs.man.ac.uk/ims/sqldump/dump2013Nov26.sql
+http://openphacts.cs.man.ac.uk/ims/sqldump/dump2013Nov26.sql.gz
+Standard OPS development username/password
+
+
+===
+See Ops1.3 for all other information
