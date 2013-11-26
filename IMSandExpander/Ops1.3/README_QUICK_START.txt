@@ -6,7 +6,7 @@ Property files mentioned there and included in jar and war have been copied to p
 ===============
 Config Critical
 --------------
-Change the *** set me *** values in local properties.
+Change the *** set me *** values in local properties. (found in the example folder)
 Save as explained in BridgeDB_README.md
 
 1. SQL user name and password
