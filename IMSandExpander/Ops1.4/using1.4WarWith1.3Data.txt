@@ -1,0 +1,35 @@
+These instruction should allow you to use the 1.4 QueryExpander.war with older IMS data.
+
+Please back up the old working war before attempting this change to you can revert!
+
+As the IMS1.3 and IMS1.4 have almsot the same API and code the two war files should be interchangeable
+
+The only issue is that the data has changed so older versions of the files DataSource.ttl and graph.properties are required
+
+While the QueryExpander.war includes a copy of these files it will first try to pick up this file in the same way as local.properties is picked up.
+
+So to use the IMS1.4 war with older data.
+
+1. Backup you old war
+2. Find the DataSource.ttl and graph.properties files in the folder you found the old war in.
+2a. Place it in the same folder as local.properties file
+3. Replace 1.3 QueryExpander file with 1.4 QueryExpander file
+4. Restart tomcat.
+
+===
+Note.
+The only API differences between 1.3 and 1.4 are the 
+
+1. QueryExpander/mappingSet now requires sourceCode and targetCode parameters
+    -Without these the mothod took several minutes to return
+   
+2. QueryExpander/SourceInfos and QueryExpander/SourceTargetInfos methods added to replace QueryExpander/mappingSet
+    A. html version of QueryExpander/mappingSe will return the data from these methods where suitable
+
+3.  QueryExpander/graphviz method will always throw an exception as it
+    A, Depended on mappingSet and so did not scale
+    B. Output was useless anyway for so many linksets
+    
+ 
+
+
