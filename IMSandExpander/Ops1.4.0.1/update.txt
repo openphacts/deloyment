@@ -1,0 +1,13 @@
+This is a hack fix for IMS 1.4
+
+Fixes https://github.com/openphacts/GLOBAL/issues/43
+
+Added http://drugbank.ca... patterns (notice no www)
+
+This comes in two parts which must be done together.
+
+1. Run the floowing SQl updates
+mysql> update mappingSet set sourceDataSource = "ChEMBLCompound" where sourceDataSource = "Chembl16Molecule";
+mysql> update mappingSet set targetDataSource = "ChEMBLCompound" where targetDataSource = "Chembl16Molecule";
+
+2. Drop in the new war.
