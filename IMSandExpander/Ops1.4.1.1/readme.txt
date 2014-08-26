@@ -1,5 +1,6 @@
 This is a bugfix for
 https://github.com/openphacts/GLOBAL/issues/131
+plus several other minor changes
 
 No config changes between this version and any other IMS 1.4 or IMS 1.3 Nov 2013 onwards.
 
