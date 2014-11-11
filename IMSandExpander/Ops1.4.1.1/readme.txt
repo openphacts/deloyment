@@ -9,3 +9,4 @@ Only expected config file is local.properties
 SQL dumps available from Christian
 Suggested IMS is 1_4_1 but will work with any ims1_4a or higher
 
+Details about configuration: https://github.com/bridgedb/BridgeDb/blob/OpenPHACTS/master/README.md#configuration-for-the-uriopenphacts-packages-only
