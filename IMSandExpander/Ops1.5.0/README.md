@@ -34,10 +34,11 @@ If loaded correctly, http://localhost:8080/QueryExpander/ (or equivalent) should
 
 
 > **Statisitics**
-> 31,382,458 Mappings
-> 186 Mapping Sets
-> 50 Source Data Sources
-> 4 Predicates
-> 50 Target Data Sources
-> 33 Lenses
+> 
+> * 31,382,458 Mappings
+> * 186 Mapping Sets
+> * 50 Source Data Sources
+> * 4 Predicates
+> * 50 Target Data Sources
+> * 33 Lenses
 
